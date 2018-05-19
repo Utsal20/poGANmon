@@ -1,0 +1,11 @@
+Potential GAN candidates-
+https://github.com/eriklindernoren/Keras-GAN/blob/master/dcgan/dcgan.py
+
+Notes-
+Training data is 56x56 PNGs with lots of empty (white) pixels, meaning a CNN layer might not even be necessary.
+
+Potential Issues / random ideas -
+-Low amounts of training data. Could extract sprites from other Pokemon (or anything) games as well
+    (same sprite, but drawn differently, at different levels of detail in different games).
+-Training data augmentation by flipping the sprites, or recoloring them, etc.
+-Could experiment with different GAN architectures, Graphical models (RBMs, Boltzmann Machines), or VAEs.

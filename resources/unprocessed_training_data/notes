@@ -1,0 +1,8 @@
+"training_examples_uncropped.png" should be cropped into 56x56 squares.
+
+columns: 31
+rows: 24 (one row of white space)
+
+After crop_pokemon_image.py is run, there is a row of blank empty tiles.
+
+These need to be deleted and sprite 683 to 741 has to be renamed as NUM-32.png (eg 651.png, 652.png, ...)
